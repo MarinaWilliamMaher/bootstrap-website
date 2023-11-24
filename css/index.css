@@ -22,6 +22,9 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.spe:hover {
+  text-shadow: 1px 1px 10px blue, 1px 1px 10px white;
+}
 .accordion-button {
   background: -webkit-linear-gradient(gray, black);
   border: 0;
@@ -59,7 +62,7 @@ html {
 }
 
 .vr {
-  margin-left: -30%;
+  margin-left: -20%;
 }
 .container1 {
   width: 90%;
