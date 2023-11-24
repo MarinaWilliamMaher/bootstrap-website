@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Egypt</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-expand-md bg-light position-fixed top-0 w-100"
+      style="z-index: 10000; opacity: 1; height: 13%"
+    >
+      <div class="container-fluid">
+        <img
+          src="./images/egyptjpg.jpg"
+          alt=""
+          width="50px"
+          height="50px"
+          class="rounded-circle me-3"
+        />
+        <div>
+          <a class="navbar-brand fs-3 spe" href="#">Egypt</a>
+        </div>
+        <div class="vr"></div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5"
+                style="color: blue"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle navii"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>T</span>rips
+              </a>
+              <ul class="dropdown-menu shadow">
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#">Cairo</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#">Alex</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#">luxor</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#">aswan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#"
+                    >sharm el shikh</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-uppercase" href="#">el glala</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary me-3 search" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="login">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              login
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-light">
+                    <h1
+                      class="modal-title fs-5 text-primary"
+                      id="staticBackdropLabel"
+                    >
+                      Login
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <label for="email" class="ms-5 my-2 text-primary"
+                        >Email Address</label
+                      >
+                    </div>
+                    <div class="row">
+                      <input
+                        type="email"
+                        id="email"
+                        class="w-75 m-auto rounded py-1"
+                      />
+                    </div>
+                    <p class="ms-5">
+                      We'll never share your email with anyone else.
+                    </p>
+                    <div class="row">
+                      <label for="pass" class="ms-5 my-2 text-primary"
+                        >Password</label
+                      >
+                    </div>
+                    <div class="row">
+                      <input
+                        type="password"
+                        id="pass"
+                        class="w-75 m-auto rounded py-1 my-3"
+                      />
+                    </div>
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input ms-4 me-2"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckChecked"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckChecked"
+                        >Remember Me</label
+                      >
+                    </div>
+                  </div>
+                  <div class="modal-footer bg-light" style="position: relative">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      style="position: absolute; left: 10px"
+                    >
+                      Login
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                  <!-- footer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <aside
+      class="position-fixed"
+      style="z-index: 10; top: 37%; right: 0px; font-size: 55px"
+    >
+      <a href="#"><i class="fab fa-facebook-square d-block mb-4 me-5"></i></a>
+      <a href="#"><i class="fab fa-whatsapp-square d-block mb-4"></i></a>
+      <a href="#"><i class="fab fa-twitter-square d-block mb-4"></i></a>
+      <a href="#"><i class="fab fa-linkedin d-block mb-4"></i></a>
+      <a href="#"><i class="fab fa-instagram-square d-block"></i></a>
+    </aside>
+    <!-- aside -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 100vh">
+          <img
+            src="./images/Cairo_From_Tower_(cropped).jpg"
+            class="d-block w-100 mt-5 vh-100 pt-3"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block fs-3">
+            <h5 class="fs-1 text-light">CAIRO</h5>
+            <p>We had such a great time in Egypt!.</p>
+            <button class="rounded border-0 px-2 fs-4">Visit Us</button>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 100vh">
+          <img
+            src="./images/aswan (2).jpg"
+            class="d-block w-100 vh-100 mt-5 vh-100 pt-3"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block fs-3">
+            <h5 class="fs-1 text-light">ASWAN</h5>
+            <p>Thank you, Aswan!</p>
+            <button class="rounded border-0 px-2 fs-4">Visit Us</button>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 100vh">
+          <img
+            src="./images/333518914.jpg"
+            class="d-block w-100 vh-100 mt-5 vh-100 pt-3"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block fs-3">
+            <h5 class="fs-1 text-light">EL GLALH</h5>
+            <p>We love this city!</p>
+            <button class="rounded border-0 px-2 fs-4">Visit Us</button>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 100vh">
+          <img
+            src="./images/sarm-el-seyh-ne-zaman.jpg"
+            class="d-block w-100 vh-100 mt-5 vh-100 pt-3"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block fs-3">
+            <h5 class="fs-1 text-light">SHARM EL SHIKH</h5>
+            <p>We love this city!</p>
+            <button class="rounded border-0 px-2 fs-4">Visit Us</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="section1 ps-4 pt-5 pb-4">
+      <h2>Welcome</h2>
+      <p>
+        Are you planning to visit Egypt? We offer the ultimate tour in Egypt,
+        covering Cairo, alex. From a one day trip to a 10 day dream vacation, we
+        will take care of all your needs. book hotels. 24/7 Customer Service.
+      </p>
+      <button class="d-block rounded border-0 fs-4 px-2 learn">
+        Learn More
+      </button>
+    </div>
+    <hr />
+    <div class="row text-center py-5">
+      <h2>Popular destinations in Egypt</h2>
+    </div>
+    <div class="accordion accordion-flush pb-5" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button
+            class="accordion-button collapsed text-uppercase text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            giza City
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Major tourist destinations include the millennia-old monuments in
+            the Nile Valley. Principal among them are the Pyramids and Great
+            Sphinx at Giza
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button
+            class="accordion-button collapsed text-uppercase text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            Luxor city
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Luxor, about 500 km south of Cairo, is the site of the ancient city
+            of Thebes. It includes the ruins of the temple complexes at Karnak
+            and Luxor, which stand within the modern city. On the opposite side
+            of the Nile River lie the monuments, temples and tombs on the West
+            Bank Necropolis, which include the Valley of the Kings and Valley of
+            the Queens.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button
+            class="accordion-button collapsed text-uppercase text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Sinai peninsula
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Sinai has the beach resorts of Sharm el-Sheikh, Dahab, Nuweiba and
+            Taba as well as locations mentioned in the Bible such as Mount Sinai
+            ("Jabal Musa"). Saint Catherine's Monastery may be the oldest
+            working Christian monastery in the world.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- accordion -->
+    <hr />
+    <div class="translate one py-3 pb-4 bg-light">
+      <div class="row text-center">
+        <h1>Translate From Arabic To English</h1>
+      </div>
+      <div class="container1">
+        <div class="row">
+          <h5 class="">
+            Write and Translate
+            <a
+              href="https://translate.google.com.eg/?hl=en"
+              class="text-decoration-none"
+              >Press Here</a
+            >
+          </h5>
+        </div>
+
+        <button
+          type="button"
+          class="btn py-1 pt-0 fs-5 rounded"
+          onclick="myFunction()"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-title="Copy To Clipboard"
+        >
+          Copy
+        </button>
+        <textarea
+          placeholder="Translate"
+          class="form-control mx-auto mt-3"
+          id="myInput"
+          rows="5"
+        ></textarea>
+      </div>
+    </div>
+    <!-- translate one -->
+    <hr />
+    <div class="translate two py-3 pb-4 bg-light">
+      <div class="row text-center">
+        <h1>Translate From Arabic To Frensh</h1>
+      </div>
+      <div class="container1">
+        <div class="row">
+          <h5 class="">
+            Write and Translate
+            <a
+              href="https://translate.google.com.eg/?hl=en&sl=ar&tl=fr&op=translate"
+              class="text-decoration-none"
+              >Press Here</a
+            >
+          </h5>
+        </div>
+        <button
+          type="button"
+          class="btn py-1 pt-0 fs-5 rounded"
+          onclick="myFunction()"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-title="Copy To Clipboard"
+        >
+          Copy
+        </button>
+        <!-- <button
+          class="d-block px-2 rounded fs-5 text-bg-dark"
+          onclick="myFunction()"
+        >
+          Copy
+        </button> -->
+        <textarea
+          placeholder="Translate"
+          class="form-control mx-auto mt-3"
+          id="myInput"
+          rows="5"
+        ></textarea>
+      </div>
+    </div>
+    <!-- translate two -->
+    <hr />
+    <div class="translate three py-3 pb-4 bg-light">
+      <div class="row text-center">
+        <h1>Translate From Arabic To German</h1>
+      </div>
+      <div class="container1">
+        <div class="row">
+          <h5 class="">
+            Write and Translate
+            <a
+              href="https://translate.google.com.eg/?hl=en&sl=ar&tl=de&op=translate"
+              class="text-decoration-none"
+              >Press Here</a
+            >
+          </h5>
+        </div>
+
+        <button
+          type="button"
+          class="btn py-1 pt-0 fs-5 rounded"
+          onclick="myFunction()"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-title="Copy To Clipboard"
+        >
+          Copy
+        </button>
+        <textarea
+          placeholder="Translate"
+          class="form-control mx-auto mt-3"
+          id="myInput"
+          rows="5"
+        ></textarea>
+      </div>
+    </div>
+    <!-- translate three -->
+    <hr />
+    <div class="container-fluid my-5">
+      <div
+        class="background1 w-100"
+        style="
+          height: 40vh;
+          background-image: url('./images/night-city-view.jpg');
+          background-attachment: fixed;
+          background-size: cover;
+        "
+      ></div>
+    </div>
+    <div class="section5">
+      <h2 class="text-center pb-4">POPULAR DESTINATIONS IN EGYPT</h2>
+      <div class="row justify-content-around pb-5">
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <img
+            src="./images/spencer-davis-MVW_MUwusDs-unsplash.jpg"
+            class="card-img-top w-100"
+            alt="..."
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cairo</h5>
+            <p class="card-text">Capital Of Egypt</p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/IMG.jpg"
+            class="card-img-top"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title">NEW CAPITAL</h5>
+            <p class="card-text">The New Administrative Capital</p>
+            <button class="btn btn-primary d-block">Know More</button>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="./images/alex.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">alexandria</h5>
+            <p class="card-text text-capitalize">the bride of mediterranean</p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/aswan3.jpg"
+            class="card-img-top"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">aswan</h5>
+            <p class="card-text text-capitalize">
+              nubian city in the south of egypt
+            </p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/luxor.jpg"
+            class="card-img-top shadow"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title">luxor</h5>
+            <p class="card-text text-capitalize">
+              the capital of anciant kingdom
+            </p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/zyanya.jpg"
+            class="card-img-top shadow"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">hurghada</h5>
+            <p class="card-text text-capitalize">city on the red sea</p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/sharmjpg.jpg"
+            class="card-img-top shadow"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">sharm el sheikh</h5>
+            <p class="card-text text-capitalize">beautiful city in egypt</p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+        <div
+          class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow"
+        >
+          <input
+            type="image"
+            src="images/img1.jpg"
+            class="card-img-top shadow"
+            alt=" pic"
+            style="height: 50vh"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">siwi</h5>
+            <p class="card-text text-capitalize">sunset oasis</p>
+            <a href="#" class="btn btn-primary">Know More</a>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </div>
+    <!-- section5 -->
+    <hr />
+    <div class="container-fluid my-5">
+      <div
+        class="background1 w-100"
+        style="
+          height: 40vh;
+          background-image: url('./images/Cairo_From_Tower_\(cropped\).jpg');
+          background-attachment: fixed;
+          background-size: cover;
+        "
+      ></div>
+    </div>
+    <div class="section7 container">
+      <div class="row justify-content-around pb-5">
+        <div class="ele mt-5 col-lg-4 col-md-6 col-12">
+          <div
+            class="card text-bg-dark"
+            style="height: 65vh; border-radius: 20px; border: none; width: 100%"
+          >
+            <img
+              src="./images/IMG.jpg"
+              class="card-img"
+              alt="..."
+              height="100%"
+              style="border-radius: 20px"
+            />
+            <div
+              class="card-img-overlay"
+              style="
+                background: linear-gradient(
+                  0deg,
+                  rgba(35, 79, 109, 0.3785889356) 0%,
+                  #455f71 100%
+                );
+                border-radius: 20px;
+              "
+            >
+              <h5 class="card-title text-capitalize fs-2">El galala city</h5>
+              <p class="card-text">A planned city in northeast Egypt</p>
+              <img
+                src="./images/IMG.jpg"
+                alt=""
+                width="100px"
+                height="130px"
+                class="ms-4 mb-4"
+                style="
+                  border-radius: 50%;
+                  position: absolute;
+                  bottom: 13%;
+                  left: 0;
+                  border: solid 3px rgba(255, 255, 255, 0.3);
+                "
+              />
+              <p class="card-text mb-4" style="position: absolute; bottom: 0">
+                Eng. Islam Mohammed <br />
+                Director of UI/UX
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="ele mt-5 col-lg-4 col-md-6 col-12">
+          <div
+            class="card text-bg-dark w-100"
+            style="height: 65vh; border-radius: 20px; border: none"
+          >
+            <img
+              src="./images/sarm-el-seyh-st-catherine-manastir.jpg"
+              class="card-img"
+              alt="..."
+              height="100%"
+              style="border-radius: 20px"
+            />
+            <div
+              class="card-img-overlay"
+              style="
+                background: linear-gradient(
+                  0deg,
+                  rgba(35, 79, 109, 0.3785889356) 0%,
+                  #455f71 100%
+                );
+                border-radius: 20px;
+              "
+            >
+              <h5 class="card-title text-capitalize fs-2">El galala city</h5>
+              <p class="card-text">A planned city in northeast Egypt</p>
+              <img
+                src="./images/sarm-el-seyh-st-catherine-manastir.jpg"
+                alt=""
+                width="100px"
+                height="130px"
+                class="ms-4 mb-4"
+                style="
+                  border-radius: 50%;
+                  position: absolute;
+                  bottom: 13%;
+                  left: 0;
+                  border: solid 3px rgba(255, 255, 255, 0.3);
+                "
+              />
+              <p class="card-text mb-4" style="position: absolute; bottom: 0">
+                Eng. Islam Mohammed <br />
+                Director of UI/UX
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="ele mt-5 col-lg-4 col-md-6 col-12">
+          <div
+            class="card text-bg-dark"
+            style="height: 65vh; border-radius: 20px; border: none"
+          >
+            <img
+              src="./images/galala-city.webp"
+              class="card-img"
+              alt="..."
+              height="100%"
+              style="border-radius: 20px"
+            />
+            <div
+              class="card-img-overlay"
+              style="
+                background: linear-gradient(
+                  0deg,
+                  rgba(35, 79, 109, 0.3785889356) 0%,
+                  #455f71 100%
+                );
+                border-radius: 20px;
+              "
+            >
+              <h5 class="card-title text-capitalize fs-2">El galala city</h5>
+              <p class="card-text">A planned city in northeast Egypt</p>
+              <img
+                src="./images/galala-city.webp"
+                alt=""
+                width="100px"
+                height="130px"
+                class="ms-4 mb-4"
+                style="
+                  border-radius: 50%;
+                  position: absolute;
+                  bottom: 13%;
+                  left: 0;
+                  border: solid 3px rgba(255, 255, 255, 0.3);
+                "
+              />
+              <p class="card-text mb-4" style="position: absolute; bottom: 0">
+                Eng. Islam Mohammed <br />
+                Director of UI/UX
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </div>
+    <!-- section7 -->
+    <div class="section8">
+      <h2 class="text-center fs-1 mb-4 head">EGYPT NEWS</h2>
+      <div class="row" style="margin-bottom: 5%">
+        <div
+          class="card mb-3 col-12 p-0"
+          style="max-width: 80%; margin: auto; border-radius: 20px"
+        >
+          <div class="row g-0 h-100 shadow" style="border-radius: 20px">
+            <div class="col-md-8 ord1">
+              <div class="card-body">
+                <h5 class="card-title head fs-2">Cairo</h5>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="line"></div>
+                <div class="texthidden" style="overflow: hidden">
+                  <p>
+                    Cairo, city, capital of Egypt, and one of the largest cities
+                    in Africa. Cairo has stood for more than 1,000 years on the
+                    same site on the banks of the Nile, primarily on the eastern
+                    shore, some 500 miles (800 km) downstream from the Aswan
+                    High Dam. Located in the northeast of the country, Cairo is
+                    the gateway to the Nile delta, where the lower Nile
+                    separates into the Rosetta and Damietta branches. Area
+                    governorate, 83 square miles (214 square km). Pop. (2006)
+                    governorate, 7,902,085; (2017) governorate, 9,539,673; urban
+                    agglom., 19,295,000.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-play"></i>play episode
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-clock"></i>55 mins.
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-tag"></i>podcast
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ord2 scal">
+              <img
+                src="./images/Cairo_From_Tower_(cropped).jpg"
+                class="shadow w-100 img1"
+                alt="..."
+                style="background-color: black"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- forward one -->
+    <div class="section8 container2">
+      <div class="row" style="margin-bottom: 5%">
+        <div
+          class="card mb-3 col-12 p-0"
+          style="max-width: 80%; margin: auto; border-radius: 20px"
+        >
+          <div class="row g-0 h-100 shadow" style="border-radius: 20px">
+            <div class="col-md-8 ordback1">
+              <div class="card-body">
+                <h5 class="card-title head fs-2">Alexandria</h5>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="line"></div>
+                <div class="texthidden" style="overflow: hidden">
+                  <p>
+                    Alexandria, major city and urban muḥāfaẓah (governorate) in
+                    Egypt. Once among the greatest cities of the Mediterranean
+                    world and a centre of Hellenic scholarship and science,
+                    Alexandria was the capital of Egypt from its founding by
+                    Alexander the Great in 332 BCE until its surrender to the
+                    Arab forces led by ʿAmr ibn al-ʿĀṣ in 642 CE. One of Egypt’s
+                    largest cities. The city lies on the Mediterranean Sea at
+                    the western edge of the Nile River delta, about 114 miles
+                    (183 km) northwest of Cairo in Lower Egypt. Area city, 116
+                    square miles (300 square km).
+                  </p>
+
+                  <ul>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-play"></i>play episode
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-clock"></i>55 mins.
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-tag"></i>podcast
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ordback2 scal">
+              <img
+                src="./images/alex.jpg"
+                class="shadow w-100 change"
+                alt="..."
+                style="background-color: black"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- reverse one -->
+    <div class="section8 container2">
+      <div class="row" style="margin-bottom: 5%">
+        <div
+          class="card mb-3 col-12 p-0"
+          style="max-width: 80%; margin: auto; border-radius: 20px"
+        >
+          <div class="row g-0 h-100 shadow" style="border-radius: 20px">
+            <div class="col-md-8 ord1">
+              <div class="card-body">
+                <h5 class="card-title head fs-2">Aswan</h5>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="line"></div>
+                <div class="texthidden" style="overflow: hidden">
+                  <p>
+                    Aswan is a Nubian city in the south of Egypt located on the
+                    east bank of the Nile river connected to Cairo with train
+                    stations, railways and domestic flights,its the population
+                    almost about 900,000, The city of Aswan is about 85 meters
+                    above sea level, it is 879 km from Cairo, and its area about
+                    34,608 km2. Aswan, Egypt is a city that is steeped in
+                    history and culture, and is one of the oldest continuously
+                    inhabited cities in the world. Located in the southern part
+                    of Egypt, on the east bank of the Nile River.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-play"></i>play episode
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-clock"></i>55 mins.
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-tag"></i>podcast
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ord2 scal">
+              <img
+                src="./images/aswan3.jpg"
+                class="shadow w-100 img1"
+                alt="..."
+                style="background-color: black"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section8 container2">
+      <div class="row" style="margin-bottom: 5%">
+        <div
+          class="card mb-3 col-12 p-0"
+          style="max-width: 80%; margin: auto; border-radius: 20px"
+        >
+          <div class="row g-0 h-100 shadow" style="border-radius: 20px">
+            <div class="col-md-8 ordback1">
+              <div class="card-body">
+                <h5 class="card-title head fs-2">GALALA CITY</h5>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="line"></div>
+                <div class="texthidden" style="overflow: hidden">
+                  <p>
+                    The new city is one of the government’s national efforts to
+                    develop the vast and empty eastern desert to solve Cairo’s
+                    population congestion and create work and living
+                    opportunities for the youth in addition to generating
+                    investment opportunities. City of Galala is located on 17000
+                    acres on top of the highest mount plateau in the area across
+                    the Gulf of Suez. The new city centers on a balanced
+                    approach towards development and preservation of the
+                    surrounding pristine environment.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-play"></i>play episode
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-clock"></i>55 mins.
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form
+                        action="http://127.0.0.1:5500/index.html"
+                        class="d-inline"
+                      >
+                        <button class="shadow">
+                          <i class="fas fa-tag"></i>podcast
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ordback2 scal">
+              <img
+                src="./images/galala-city.webp"
+                class="shadow w-100 change"
+                alt="..."
+                style="background-color: black"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- reverse one -->
+    <div class="last container">
+      <h2 class="text-center fs-1 head mb-3">JOIN US</h2>
+      <div class="row d-flex justify-content-around">
+        <div class="col-3 shadow text-center ele col-lg-3 col-md-4 col-5">
+          <div>
+            <h2 class="text-capitalize text-info">subscribe now</h2>
+            <img src="./images/insta.jpg" alt="" class="rounded-4 align-self" />
+            <a
+              href="https://www.instagram.com/"
+              class="text-capitalize d-block text-decoration-none"
+              style="font-size: 1.5rem"
+              >go to link</a
+            >
+          </div>
+
+          <!-- element -->
+        </div>
+        <div class="col-3 shadow text-center ele col-lg-3 col-md-4 col-5">
+          <div>
+            <h2 class="text-capitalize text-info">Follow</h2>
+            <img src="./images/in.jpg" alt="" class="rounded-4 align-self" />
+            <a
+              href="https://www.linkedin.com/" target="_blank"
+              class="text-capitalize d-block text-decoration-none"
+              style="font-size: 1.5rem"
+              >go to link</a
+            >
+          </div>
+          <!-- element -->
+        </div>
+        <div class="col-3 shadow text-center ele col-lg-3 col-md-4 col-5">
+          <div>
+            <h2 class="text-capitalize text-info">Like the page</h2>
+            <img src="./images/whats.jpg" alt="" class="rounded-4 align-self" />
+            <a
+              href="https://www.whatsapp.com/" target="_blank"
+              class="text-capitalize d-block text-decoration-none"
+              style="font-size: 1.5rem"
+              >go to link</a
+            >
+          </div>
+        </div>
+        <!-- element -->
+        <div class="col-3 shadow text-center ele col-lg-3 col-md-4 col-5">
+          <div>
+            <h2 class="text-capitalize text-info">watch videos</h2>
+            <img
+              src="./images/twetter.jpg"
+              alt=""
+              class="rounded-4 align-self"
+            />
+            <a
+              href="https://twitter.com/" target="_blank"
+              class="text-capitalize d-block text-decoration-none"
+              style="font-size: 1.5rem"
+              >go to link</a
+            >
+          </div>
+          <!-- element -->
+        </div>
+      </div>
+    </div>
+    <!-- last section -->
+    <footer class="bg-light">
+      <div class="row justify-content-around">
+        <div class="col-lg-3 col-12 text-center">
+          <hr />
+          <img
+            src="./images/zyanya.jpg"
+            alt=""
+            width="80px"
+            height="80px"
+            class="rounded-circle"
+          />
+          <span class="fs-4 text-capitalize text-info">good company</span>
+          <hr />
+          <p>
+            Tel : 000-000-000 <br />
+
+            Address : EGYPT <br />
+
+            Fax : 000-000-000
+          </p>
+        </div>
+        <div class="col-lg-3 col-12 text-center">
+          <hr />
+          <img
+            src="./images/sarm-el-seyh-st-catherine-manastir.jpg"
+            alt=""
+            width="80px"
+            height="80px"
+            class="rounded-circle"
+          />
+          <span class="fs-4 text-capitalize text-info">Important Links</span>
+          <hr />
+          <a href="#" class="d-block text-decoration-none">Visit Us</a>
+          <a href="#" class="d-block text-decoration-none">Take alook</a>
+          <a href="#" class="d-block text-decoration-none"
+            >Your Healthy Is More Important</a
+          >
+        </div>
+        <div class="col-lg-3 col-12 text-center">
+          <hr />
+          <img
+            src="./images/new capital.jpg"
+            alt=""
+            width="80px"
+            height="80px"
+            class="rounded-circle"
+          />
+          <span class="fs-4 text-capitalize text-info">Vision</span>
+          <hr />
+          <p>
+            Serveices for all <br />
+
+            Provide best serveices <br />
+
+            you will be better than before
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <hr />
+        <p class="text-center fs-4">
+          COPYRIGHT © 2020 SHIMAAHUSSIEN EL SAID, GOOD COMPANY. ALL RIGHTS
+        </p>
+      </div>
+    </footer>
+
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
